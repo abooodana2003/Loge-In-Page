@@ -1,0 +1,105 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    background: url(logo2.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 420px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+img[alt="user"]{
+    position: absolute;
+    top: -65px;
+    left: 107px;
+    width: 130px;
+    border-radius: 58px;
+    object-fit: contain;
+}
+
+h2{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 80px;
+}
+input[type="text"],[type="password"]{
+    position: absolute;
+    outline: none;
+    border: none;
+    width: 250px;
+    height: 35px;
+    border-bottom: 2px solid #0094ff;
+    background: none;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+}
+input[type="text"]{
+    top: 125px;
+    left: 50px;
+}
+[type="password"]{
+    top: 195pX;
+    left: 50px;
+}
+::placeholder{
+    color: rgb(0, 0, 0);
+}
+input[value="login"]{
+    position: absolute;
+    top: 280px;
+    left: 110px;
+    width: 130px;
+    height: 35px;
+    background: #000000;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 15px;
+    font-size: 20px;
+    transition: 1s;
+}
+input[value="login"]:hover{
+    background: #fff;
+    color: #000000;
+    transform: scale(1.2);
+}
+p{
+    position: absolute;
+    top: 365px;
+    left: 110px;
+    color: rgb(0, 0, 255);
+    cursor: pointer;
+}
+p:hover{
+    color: #000000;
+}
+.links{
+    margin-left: 90PX;
+    margin-top: -35px;
+}
+
+.links img{
+    margin-right: 10px;
+    width: 30px;
+    display: inline-flex;
+    margin-top: 243px;
+    transition: 1s;
+
+}
+.links :hover{
+    transform: scale(1.5);
+}
+@media screen and (max-width:400px) {
+    
+}
